@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TruevoExchangeRateAPI.Data;
@@ -11,9 +12,10 @@ using TruevoExchangeRateAPI.Data;
 namespace TruevoExchangeRateAPI.Data.Migrations
 {
     [DbContext(typeof(TruevoExchangeRateDbContext))]
-    partial class TruevoExchangeRateDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221010172134_ExchangeRateTable_add_column_TruevoMidRate")]
+    partial class ExchangeRateTable_add_column_TruevoMidRate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

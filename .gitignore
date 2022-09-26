@@ -1,2 +1,9 @@
 /TruevoExchangeRateAPI/TruevoExchangeRateAPI/bin
 /TruevoExchangeRateAPI/TruevoExchangeRateAPI/obj
+/TruevoExchangeRateAPI/.vs
+/TruevoExchangeRateAPI/TruevoExchangeRateAPI.Tests/bin
+/TruevoExchangeRateAPI/TruevoExchangeRateAPI.Tests/obj
+/python/__pycache__/lambda_function.cpython-310.pyc
+/python/*.sw0
+/python/__pycache__
+/python/*.test

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TruevoExchangeRateAPI.Data;
@@ -11,9 +12,10 @@ using TruevoExchangeRateAPI.Data;
 namespace TruevoExchangeRateAPI.Data.Migrations
 {
     [DbContext(typeof(TruevoExchangeRateDbContext))]
-    partial class TruevoExchangeRateDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220928224140_Exchange_Rate_Additional_Columns")]
+    partial class Exchange_Rate_Additional_Columns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,9 +52,6 @@ namespace TruevoExchangeRateAPI.Data.Migrations
                         .HasColumnType("numeric");
 
                     b.Property<decimal>("TruevoBuyRate")
-                        .HasColumnType("numeric");
-
-                    b.Property<decimal>("TruevoMidRate")
                         .HasColumnType("numeric");
 
                     b.Property<decimal>("TruevoSellRate")

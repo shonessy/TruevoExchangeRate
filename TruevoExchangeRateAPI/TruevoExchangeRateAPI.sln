@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruevoExchangeRateAPI", "TruevoExchangeRateAPI\TruevoExchangeRateAPI.csproj", "{AC3B2FD1-DB47-41E6-8EA8-302D8E99A8C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruevoExchangeRateAPI.Tests", "TruevoExchangeRateAPI.Tests\TruevoExchangeRateAPI.Tests.csproj", "{6DADA07E-C47C-4C4F-9459-0AC9642AC122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC3B2FD1-DB47-41E6-8EA8-302D8E99A8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3B2FD1-DB47-41E6-8EA8-302D8E99A8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3B2FD1-DB47-41E6-8EA8-302D8E99A8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DADA07E-C47C-4C4F-9459-0AC9642AC122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DADA07E-C47C-4C4F-9459-0AC9642AC122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DADA07E-C47C-4C4F-9459-0AC9642AC122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DADA07E-C47C-4C4F-9459-0AC9642AC122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

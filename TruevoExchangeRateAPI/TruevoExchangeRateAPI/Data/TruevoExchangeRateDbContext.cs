@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TruevoExchangeRateAPI.Models;
+using TruevoExchangeRateAPI.Data.Models;
 
 namespace TruevoExchangeRateAPI.Data
 {
